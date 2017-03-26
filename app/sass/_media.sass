@@ -1,0 +1,162 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.title__back
+		display: none
+	.general-title
+		h1
+			margin-left: 10px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.container
+		background: url(../img/bgmobile.png) top center no-repeat
+		background-size: cover
+	.btn__arrow
+		display: none
+	.form-item 
+		.in_cont 
+			button
+				background: silver
+	.about 
+		.about__title
+			margin-left: 420px
+		p
+			font-size: 14px
+	h2
+		width: 53%
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 800px)
+	.about 
+		.about__title
+			margin-left: 315px
+	h2
+		font-size: 22px
+	
+	.list__title
+		li
+			margin-bottom: 10px
+		.important
+			margin: 0
+		.icon__list
+			display: none
+	.footer 
+		.list__footer 
+			ul
+				justify-content: space-between
+				padding: 0 14px
+				li
+					a
+						font-size: 14px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 766px)
+	.general-title 
+		h1
+			width: 100%
+	.col-xs
+		display: none
+	.form-item, .timer-item
+		margin: 0 auto
+	.about
+		.about__title
+			p
+				font-size: 20px
+		h3
+			font-size: 22px
+		ul
+			font-size: 14px
+		p
+			margin-left: 180px
+
+@media only screen and (max-width : 605px)
+	.about 
+		.about__title
+			margin-left: 240px
+	.about 
+		ul 
+			li
+				margin-bottom: 20px
+				.about__icon
+					display: none
+	.footer
+		text-align: center
+
+@media only screen and (max-width : 605px)
+	.about 
+		.about__title
+			margin-left: 170px
+	.general-title
+		h1
+			font-size: 30px
+
+	.list__footer
+		display: none
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 425px)
+	.about
+		p
+			margin: 0 0 0 1px
+		.about__title
+			margin-left: 110px
+	.cols
+		.form-title 
+			p 
+				span
+					font-size: 16px
+		padding: 0px
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.about
+		background: none #666
+		.about__title
+			margin-left: 30px
+	.general-title
+		h1
+			font-size: 22px
+			margin-bottom: 10px
+		.row
+			padding: 0 10px
+	.form-item 
+		.in_cont 
+			input
+				width: 90%
+			button
+				width: 90%
+	.timer-item
+		width: 300px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

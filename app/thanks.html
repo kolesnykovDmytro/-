@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+	<style>
+		a.logo_tab img { -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; transition: all 1s ease-in-out; -moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); -o-transform:rotate(0deg); -ms-transform:rotate(0deg); transform:rotate(0deg); } 
+		a.logo_tab.right_tab img { -moz-transform:rotate(-7deg); -webkit-transform:rotate(-7deg); -o-transform:rotate(-7deg); -ms-transform:rotate(-7deg); transform:rotate(-7deg); }
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+
+		<header class="header-thanks">
+			<div class="container__inner-thanks">
+				<div class="logo-thanks">
+					<img src="img/logo-white.png" alt="logo" class="img-responsive">
+				</div>
+				<div class="header__text-thanks">
+					<a class="logo_tab right_tab" href="#"><img src="img/logo6.png" alt="Табличка на ветру"></a>
+				</div>
+			</div>
+		</header>
+
+		<!-- begin content__video-thanks -->
+		<div class="content__video-thanks">
+			<h1>Подтвердите,пожалуйста,подписку на своей почте!</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/xwAJiWVBymk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+			<button>Получить за 5$</button>
+		</div>
+		<!-- end content__video-thanks -->
+
+		<!-- begin footer -->
+		<footer class=footer-thanks>
+			<div class="container__inner-thanks">
+				<div class="footer-logo__thanks">
+					<img src="img/footer-logo.png" class="img-responsive" alt="footer-logo">
+				</div>
+				<div class="footer-text__thanks">
+					<p class="footer-copyright-thanks">Все права защищены © 2016 ArtemNesterenko.com.ИП Нестеренко А.Ю.,ОГРН №2922608816,</p>
+					<p class="footer-mail-thanks"><i class="icon__mail"></i>Support@mbm.partners</p>
+					<p class="footer-contact-thanks"><i class="icon__phone"></i> Украина: +380442283550; +380948283550	+380977777497 <br> Россия: +74993227648 </p>
+				</div>
+				<div class="footer-link__thanks">
+					<nav>
+						<ul>
+							<li><a href="https://mbmpartner.com/politika_konfidencialnosti" target="_blank">Политика конфиденциальности</a></li>
+							<li><a href="https://mbmpartner.com/otkaz_ot_otvetstvennosti" target="_blank">Дисклеймер</a></li>
+							<li><a href="https://mbmpartner.com/soglasie_s_rassylkoj" target="_blank">Согласие с рассылкой</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+			<!-- end footer -->
+
+	</div>
+	
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+	<script>
+		$(document).ready(function() {
+  			function swing(){
+     		$('.logo_tab').toggleClass('right_tab');
+     	setTimeout(swing, 1000);
+  }
+  swing();
+});
+	</script>
+
+</body>
+</html>
